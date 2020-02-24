@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class Main {
 	public static void main(String[] args) {
 		// Was unable to open the file containing all words, so instead
-		// using arguments passed to the main method instead.
+		// using arguments passed to the main method.
 		anagramMap(args).values().forEach(v -> System.out.println(v.toString()));
 
 	}
