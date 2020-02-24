@@ -11,7 +11,7 @@ public class SpreadDataRowTest {
 		final SpreadDataRow minRow = new SpreadDataRow("Min", 1, 2);
 		final SpreadDataRow maxRow = new SpreadDataRow("Max", 3, 9);
 		
-		// min < max ->SSS -1
+		// min < max -> -1
 		Assert.assertEquals(-1, minRow.compareTo(maxRow));
 		// min = min -> 0
 		Assert.assertEquals(0, minRow.compareTo(minRow));
